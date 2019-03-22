@@ -6,7 +6,7 @@ const PROTO_PATH = path.join('pb', 'messages.proto');
 
 const SERVER_ADDR = 'localhost:5000';
 
-const grpc = requrire('grpc');
+const grpc = require('grpc');
 
 const HelloService = grpc.load(PROTO_PATH).HelloService;
 

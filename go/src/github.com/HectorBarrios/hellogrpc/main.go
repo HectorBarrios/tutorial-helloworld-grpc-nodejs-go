@@ -1,9 +1,13 @@
 package main
 
 import (
-	"context"
 	"log"
 	"net"
+
+	"golang.org/x/net/context"
+
+	"github.com/HectorBarrios/hellogrpc/messages"
+	"google.golang.org/grpc"
 )
 
 const port = ":5000"
